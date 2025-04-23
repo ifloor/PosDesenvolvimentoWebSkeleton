@@ -1,4 +1,4 @@
-enum ProductCategory {
+export enum ProductCategory {
   Moda,
   Eletronicos,
   Alimentos,
