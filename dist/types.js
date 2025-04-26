@@ -1,6 +1,17 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.ProductCategory = void 0;
+exports.ProductCategory = exports.Product = void 0;
+class Product {
+    constructor(id, name, description, price, category, pictureUrl) {
+        this.id = id;
+        this.name = name;
+        this.description = description;
+        this.price = price;
+        this.category = category;
+        this.pictureUrl = pictureUrl;
+    }
+}
+exports.Product = Product;
 var ProductCategory;
 (function (ProductCategory) {
     ProductCategory[ProductCategory["Moda"] = 0] = "Moda";

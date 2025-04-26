@@ -1,3 +1,12 @@
+export declare class Product {
+    id: string;
+    name: string;
+    description: string;
+    price: number;
+    category: ProductCategory;
+    pictureUrl: string;
+    constructor(id: string, name: string, description: string, price: number, category: ProductCategory, pictureUrl: string);
+}
 export declare enum ProductCategory {
     Moda = 0,
     Eletronicos = 1,
